@@ -39,7 +39,7 @@ while (1) {
             }
             $l2 =~ s![\r\n]!!g;
             my $res = $l1 cmp $l2;
-            print "$l1 $l2 $res\n";
+            # print "$l1 $l2 $res\n";
             if ($res == 0) {
                 $exist++;
                 $go1 = 1;
